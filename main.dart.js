@@ -85538,7 +85538,7 @@ return A.L(m.pz(),$async$hP)
 case 12:m.ay.sn(!0)
 i=$.al()
 A.fK(i,"Success","Account created successfully")
-A.aAx(i,"/home",t.z)
+A.aAx(i,"/Dashboard",t.z)
 s=9
 break
 case 10:A.fK($.al(),"Error","Signup failed")
@@ -85581,7 +85581,7 @@ return A.L(m.pz(),$async$jE)
 case 8:m.ay.sn(!0)
 j=$.al()
 A.fK(j,"Success","Login successful")
-A.aAx(j,"/home",t.z)
+A.aAx(j,"/Dashboard",t.z)
 n.push(6)
 s=5
 break
@@ -85698,7 +85698,7 @@ return A.cA(s,"AppwriteException: ","")}return"An unknown error occurred"},
 qB(){this.KE()}}
 A.M3.prototype={
 M(a){var s=null,r=t.z
-return new A.yY("/forgot","PolacHub",A.qC(s,A.azC(B.a4,s,s,B.Dl),B.T,B.K,s),!1,A.c([A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/",!0,new A.abM(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/signup",!0,new A.abN(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/login",!0,new A.abO(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/forgot",!0,new A.abP(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/Dashboard",!0,new A.abQ(),s,s,s,!0,!0,s,B.fc,B.bF,s,r)],t.RT),s)}}
+return new A.yY("/","PolacHub",A.qC(s,A.azC(B.a4,s,s,B.Dl),B.T,B.K,s),!1,A.c([A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/",!0,new A.abM(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/signup",!0,new A.abN(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/login",!0,new A.abO(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/forgot",!0,new A.abP(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/Dashboard",!0,new A.abQ(),s,s,s,!0,!0,s,B.fc,B.bF,s,r)],t.RT),s)}}
 A.abM.prototype={
 $0(){return B.zb},
 $S:207}
