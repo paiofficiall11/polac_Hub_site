@@ -26360,7 +26360,7 @@ arC:function arC(){},
 arD:function arD(a){this.a=a},
 arE:function arE(){},
 ZS:function ZS(){var _=this
-_.d=_.c=_.b=_.a=$},
+_.r=_.d=_.c=_.a=$},
 ZT:function ZT(){},
 m1(a,b,c,d,e,f){return new A.ol(d,e,a,c,f,b,null)},
 ol:function ol(a,b,c,d,e,f,g){var _=this
@@ -85660,7 +85660,7 @@ return A.cz(s,"AppwriteException: ","")}return"An unknown error occurred"},
 qB(){this.KE()}}
 A.M1.prototype={
 M(a){var s=null,r=t.z
-return new A.yY("/","PolacHub",A.qB(s,A.azw(B.a4,s,s,B.Dl),B.T,B.K,s),!1,A.c([A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/",!0,new A.abJ(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/signup",!0,new A.abK(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/login",!0,new A.abL(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/forgot",!0,new A.abM(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/Dashboard",!0,new A.abN(),s,s,s,!0,!0,s,B.fc,B.bF,s,r)],t.RT),s)}}
+return new A.yY("/forgot","PolacHub",A.qB(s,A.azw(B.a4,s,s,B.Dl),B.T,B.K,s),!1,A.c([A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/",!0,new A.abJ(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/signup",!0,new A.abK(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/login",!0,new A.abL(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/forgot",!0,new A.abM(),s,s,s,!0,!0,s,B.fc,B.bF,s,r),A.z_(s,s,s,B.ez,B.eA,B.c_,s,!1,s,!0,s,"/Dashboard",!0,new A.abN(),s,s,s,!0,!0,s,B.fc,B.bF,s,r)],t.RT),s)}}
 A.abJ.prototype={
 $0(){return B.zb},
 $S:207}
@@ -86569,20 +86569,20 @@ A.arE.prototype={
 $0(){A.iL($.al(),"/login",null,t.z)},
 $S:0}
 A.ZS.prototype={
-gnG(){var s=this.a
+gnG(){var s=this.c
 s===$&&A.a()
 return s},
 h8(a,b,c,d,e){return this.ZD(a,b,c,d,e)},
 ZD(a,b,c,d,e){var s=0,r=A.K(t.t6),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$h8=A.G(function(f,g){if(f===1){o.push(g)
 s=p}while(true)switch(s){case 0:p=4
-k=n.b
+k=n.a
 k===$&&A.a()
 s=7
 return A.L(k.yZ(b,c,d,A.aLB()),$async$h8)
 case 7:m=g
 s=8
-return A.L(n.b.tT(b,d),$async$h8)
+return A.L(n.a.tT(b,d),$async$h8)
 case 8:s=9
 return A.L(n.wO(a,b,c,e,m.a),$async$h8)
 case 9:s=10
@@ -86610,7 +86610,7 @@ jD(a,b){return this.apm(a,b)},
 apm(a,b){var s=0,r=A.K(t.lG),q,p=2,o=[],n=this,m,l,k,j
 var $async$jD=A.G(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:p=4
-l=n.b
+l=n.a
 l===$&&A.a()
 s=7
 return A.L(l.tT(a,b),$async$jD)
@@ -86637,7 +86637,7 @@ return A.J($async$jD,r)},
 w0(){var s=0,r=A.K(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$w0=A.G(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
-m=o.b
+m=o.a
 m===$&&A.a()
 s=6
 return A.L(m.z3("polachub.appwrite.network"),$async$w0)
@@ -86656,44 +86656,15 @@ break
 case 5:return A.I(null,r)
 case 1:return A.H(p.at(-1),r)}})
 return A.J($async$w0,r)},
-wO(a,b,c,d,e){return this.a6f(a,b,c,d,e)},
-a6f(a,b,c,d,e){var s=0,r=A.K(t.VF),q,p=2,o=[],n=this,m,l,k,j,i
-var $async$wO=A.G(function(f,g){if(f===1){o.push(g)
-s=p}while(true)switch(s){case 0:p=4
-l=n.c
-l===$&&A.a()
-k=t.z
-s=7
-return A.L(l.z0("users",A.a8(["name",c,"email",b,"phone",d,"course",a,"bookmarks",[],"role","student","userId",e,"profileImage",null,"bio","","joinedAt",new A.eH(Date.now(),0,!1).vq(),"lastActive",new A.eH(Date.now(),0,!1).vq(),"isVerified",!1,"notifications",!1],k,k),"68c14782000ebb74016f",e,A.c(['read("any")','update("any")','delete("any")'],t.s)),$async$wO)
-case 7:k=g
-q=k
-s=1
-break
-p=2
-s=6
-break
-case 4:p=3
-i=o.pop()
-l=A.a5(i)
-if(l instanceof A.eU){m=l
-A.ek("User document creation error: "+A.j(m.a))
-throw i}else throw i
-s=6
-break
-case 3:s=2
-break
-case 6:case 1:return A.I(q,r)
-case 2:return A.H(o.at(-1),r)}})
-return A.J($async$wO,r)},
 r1(){var s=0,r=A.K(t.Ub),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$r1=A.G(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:p=4
-k=n.b
+k=n.a
 k===$&&A.a()
 s=7
 return A.L(k.r0(),$async$r1)
 case 7:m=b
-k=n.c
+k=n.d
 k===$&&A.a()
 s=8
 return A.L(k.r2("users","68c14782000ebb74016f",m.a),$async$r1)
@@ -86727,7 +86698,7 @@ s=p}while(true)switch(s){case 0:i=null
 p=4
 m=A.c([B.aD.mv(new A.q_("orderDesc","createdAt",null).eb(),null),B.aD.mv(new A.q_("limit",null,b).eb(),null)],t.s)
 if(i!=null)J.wR(m,J.rp(i,new A.ZT(),t.N))
-k=n.c
+k=n.d
 k===$&&A.a()
 s=7
 return A.L(k.uV("posts","68c14782000ebb74016f",m),$async$vJ)
@@ -86755,7 +86726,7 @@ vO(a){return this.YH(a)},
 YH(a){var s=0,r=A.K(t.VF),q,p=2,o=[],n=this,m,l,k,j
 var $async$vO=A.G(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:p=4
-l=n.c
+l=n.d
 l===$&&A.a()
 s=7
 return A.L(l.r2("posts","68c14782000ebb74016f",a),$async$vO)
@@ -86783,7 +86754,7 @@ Bm(a,b){return this.asp(a,b)},
 asp(a,b){var s=0,r=A.K(t.VF),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$Bm=A.G(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:p=4
-k=n.c
+k=n.d
 k===$&&A.a()
 j=t.z
 m=A.iR(a,j,j)
@@ -86846,7 +86817,7 @@ Yv(a,b,c){var s=0,r=A.K(t.Sk),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$vL=A.G(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
 m=A.c([B.aD.mv(new A.q_("orderDesc","createdAt",null).eb(),null),B.aD.mv(new A.q_("limit",null,c).eb(),null)],t.s)
-k=n.c
+k=n.d
 k===$&&A.a()
 s=7
 return A.L(k.uV("q_a","68c14782000ebb74016f",m),$async$vL)
@@ -86870,13 +86841,13 @@ break
 case 6:case 1:return A.I(q,r)
 case 2:return A.H(o.at(-1),r)}})
 return A.J($async$vL,r)},
-JC(a,b){var s=this.d
+JC(a,b){var s=this.r
 s===$&&A.a()
 return s.vI(a,b,B.H0,500,75,500).k(0)},
 A4(){var s=0,r=A.K(t.y),q,p=2,o=[],n=this,m,l,k
 var $async$A4=A.G(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:p=4
-m=n.b
+m=n.a
 m===$&&A.a()
 s=7
 return A.L(m.r0(),$async$A4)
@@ -86897,7 +86868,36 @@ case 3:s=2
 break
 case 6:case 1:return A.I(q,r)
 case 2:return A.H(o.at(-1),r)}})
-return A.J($async$A4,r)}}
+return A.J($async$A4,r)},
+wO(a,b,c,d,e){return this.a6f(a,b,c,d,e)},
+a6f(a,b,c,d,e){var s=0,r=A.K(t.VF),q,p=2,o=[],n=this,m,l,k,j,i
+var $async$wO=A.G(function(f,g){if(f===1){o.push(g)
+s=p}while(true)switch(s){case 0:p=4
+l=n.d
+l===$&&A.a()
+k=t.z
+s=7
+return A.L(l.z0("users",A.a8(["name",c,"email",b,"phone",d,"course",a,"bookmarks",[],"role","student","userId",e,"profileImage",null,"bio","","joinedAt",new A.eH(Date.now(),0,!1).vq(),"lastActive",new A.eH(Date.now(),0,!1).vq(),"isVerified",!1,"notifications",!1],k,k),"68c14782000ebb74016f",e,A.c(['read("any")','update("any")','delete("any")'],t.s)),$async$wO)
+case 7:k=g
+q=k
+s=1
+break
+p=2
+s=6
+break
+case 4:p=3
+i=o.pop()
+l=A.a5(i)
+if(l instanceof A.eU){m=l
+A.ek("User document creation error: "+A.j(m.a))
+throw i}else throw i
+s=6
+break
+case 3:s=2
+break
+case 6:case 1:return A.I(q,r)
+case 2:return A.H(o.at(-1),r)}})
+return A.J($async$wO,r)}}
 A.ZT.prototype={
 $1(a){return B.aD.mv(new A.q_("equal","category",a).eb(),null)},
 $S:64}
@@ -94603,10 +94603,10 @@ p.a=n
 B.c.oC(B.c.oC(n,k,"wss://"),j,"ws://")
 p.gaka().m(0,"project",i)
 p.aiU("X-Appwrite-Project",i)
-q.a=p
-q.b=new A.Zv(q.gnG())
-q.c=new A.a0V(q.gnG())
-q.d=new A.ahy(q.gnG())
+q.c=p
+q.a=new A.Zv(q.gnG())
+q.d=new A.a0V(q.gnG())
+q.r=new A.ahy(q.gnG())
 p=q.gnG()
 o=new A.MY(A.HC(),A.ax(o),m,m,A.HC(),m,A.p(t.S,A.ag("aWM")),!0,0,m,!1,m)
 o.UJ$=p
