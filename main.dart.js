@@ -87253,7 +87253,7 @@ p=J.hk(s.gn(),r)
 s=p.w
 o=s.h(0,"authorName")
 if(o==null)o="Anonymous"
-n=s.h(0,"createdAt")
+n=s.h(0,"createdDate")
 if(n==null)n=new A.dX(Date.now(),0,!1).oO()
 m=s.h(0,"text")
 if(m==null)m=""
@@ -87378,7 +87378,7 @@ l=J.hk(s.gn(),r)
 s=l.w
 k=s.h(0,"authorName")
 if(k==null)k="Anonymous"
-j=s.h(0,"createdAt")
+j=s.h(0,"createdDate")
 if(j==null)j=new A.dX(Date.now(),0,!1).oO()
 i=s.h(0,"title")
 if(i==null)i="Untitled Question"
@@ -88086,7 +88086,7 @@ YX(a,b){var s=0,r=A.E(t.Sk),q,p=2,o=[],n=this,m,l,k,j,i,h
 var $async$w5=A.A(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:i=null
 p=4
-m=A.b([B.aG.mC(new A.qb("orderDesc","createdAt",null).eg(),null),B.aG.mC(new A.qb("limit",null,b).eg(),null)],t.s)
+m=A.b([B.aG.mC(new A.qb("orderDesc","createdDate",null).eg(),null),B.aG.mC(new A.qb("limit",null,b).eg(),null)],t.s)
 if(i!=null)J.x4(m,J.rB(i,new A.a_v(),t.N))
 k=n.d
 k===$&&A.a()
@@ -88161,7 +88161,7 @@ h=m
 g=a0==null?A.b([],t.s):a0
 f=t.z
 s=10
-return A.G(j.ud("posts",A.a7(["authorId",a,"text",a1,"imageId",h,"tags",g,"createdAt",b.oO(),"updatedAt",b.oO(),"likes",[],"comments",[],"shares",0,"views",0],f,f),"68c14782000ebb74016f",i,A.b(['read("any")','update("any")','delete("any")'],t.s)),$async$ug)
+return A.G(j.ud("posts",A.a7(["authorId",a,"text",a1,"imageId",h,"tags",g,"createdDate",b.oO(),"updatedDate",b.oO(),"likes",[],"comments",[],"shares",0,"views",0],f,f),"68c14782000ebb74016f",i,A.b(['read("any")','update("any")','delete("any")'],t.s)),$async$ug)
 case 10:i=a3
 q=i
 s=1
@@ -88190,7 +88190,7 @@ k=n.d
 k===$&&A.a()
 j=t.z
 m=A.iZ(a,j,j)
-J.kv(m,"updatedAt",new A.dX(Date.now(),0,!1).oO())
+J.kv(m,"createdDate",new A.dX(Date.now(),0,!1).oO())
 s=7
 return A.G(k.BK("posts",m,"68c14782000ebb74016f",b),$async$BM)
 case 7:m=d
@@ -88248,7 +88248,7 @@ w7(a,b,c){return this.YZ(a,b,c)},
 YZ(a,b,c){var s=0,r=A.E(t.Sk),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$w7=A.A(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:p=4
-m=A.b([B.aG.mC(new A.qb("orderDesc","createdAt",null).eg(),null),B.aG.mC(new A.qb("limit",null,c).eg(),null)],t.s)
+m=A.b([B.aG.mC(new A.qb("orderDesc","createdDate",null).eg(),null),B.aG.mC(new A.qb("limit",null,c).eg(),null)],t.s)
 k=n.d
 k===$&&A.a()
 s=7
